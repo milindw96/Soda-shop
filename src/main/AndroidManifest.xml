@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sharad.Soda1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon25"
+        android:label="Soda Shop"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Welcome" />
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity
+            android:name=".testPage"
+            android:label="@string/title_activity_test_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pageone"
+            android:label="@string/title_activity_pageone"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Splash">
+
+            <!-- FIrst Activity -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FetchData" />
+        <activity android:name=".BuySoda" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".Calender"
+            android:label="@string/title_activity_calender"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".View"></activity>
+    </application>
+
+</manifest>

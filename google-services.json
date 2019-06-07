@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "845089424260",
+    "firebase_url": "https://demoapex-44593-35f7c.firebaseio.com",
+    "project_id": "demoapex-44593-35f7c",
+    "storage_bucket": "demoapex-44593-35f7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845089424260:android:e746b4124ca72b8d",
+        "android_client_info": {
+          "package_name": "com.example.sharad.Soda1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845089424260-c7an22omhk6knh2heiuo4bo9n2iub7d5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sharad.Soda1",
+            "certificate_hash": "6576e425e18ff542db97e1162f90297113f79510"
+          }
+        },
+        {
+          "client_id": "845089424260-a55isnv05i7mrmf907050ablrl9sno89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdIpNkxMLQH9IBT4claLSsJVkjalMFdxU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845089424260-a55isnv05i7mrmf907050ablrl9sno89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

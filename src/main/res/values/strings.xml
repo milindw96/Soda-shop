@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FirebaseDemo</string>
+    <string name="title_activity_test_page">testPage</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pageone">Pageone</string>
+    <string name="title_activity_buy_soda2">BuySoda2</string>
+    <string name="title_activity_recive__data">Recive_Data</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_recive_data">ReciveData</string>
+    <string name="title_activity_calender1">Calender1</string>
+    <string name="title_activity_calender">Calender</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg0"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sharad.Soda1.testPage"
+    tools:showIn="@layout/app_bar_test_page">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="12dp"
+            app:srcCompat="@drawable/soda4" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="200dp"
+                android:layout_marginLeft="20dp"
+
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="100dp"
+                android:text="Soft drinks can certainly feel like the hard option. No champagne or red burgundy for the poor driver or pregnant guest being fobbed off with a lime and soda. Considerate hosts provide more tempting options, such as elderflower pressé or cranberry juice, but at dinner that’s hardly going to complement fine cuisine.  Or so I thought, until I spent a long lunch matching soft drinks with food. 'Won’t work,’ was my narrow-minded approach, mainly because of the sheer sweetness of most soft drinks.  I hadn’t reckoned on Gabriel David, the owner of Luscombe organic drinks, whom I met at Mitch Tonks’ Seahorse restaurant in Dartmouth recently for a taste-off.  David believes that less sweet, more natural soft drinks have every chance with food. Well, he would, wouldn’t he, and actually I didn’t like all the pairings put forward. But some convinced. For a start (and starter), mussels steamed with a herby broth were wonderful with Luscombe’s orange and lemon drink, St Clements.  Chicken livers cooked with sage and aged vinegar scored a surprise hit with the Cranberry Crush – the tangy, sour red berry cutting through the liver. A plate of delicate fritto misto made a gentle, summery marriage with cool elderflower bubbly, while a richer, juicy apple and apricot blend proved a rather Moroccan combination with tender grilled lamb."
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:layout_alignParentLeft="true" />
+
+
+        </ScrollView>
+
+    </RelativeLayout>
+</RelativeLayout>
